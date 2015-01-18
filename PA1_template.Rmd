@@ -7,7 +7,7 @@ output:
 
 
 ## Loading and preprocessing the data
-Data can be obtained from this repository. After downloading, it should be uncompressed and loaded into R (commands below assume teh working directory is set to the location of activity.zip file:
+Data can be obtained from this repository. After downloading, the source file should be uncompressed and loaded into R (commands below assume teh working directory is set to the location of activity.zip file:
 ```{r}
   unzip("activity.zip")
   steps <- read.csv("activity.csv", stringsAsFactors=TRUE)
